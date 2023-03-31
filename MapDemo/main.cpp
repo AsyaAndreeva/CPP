@@ -24,32 +24,35 @@ int main() {
     //myDictionary["strawberries"] = "5";
 
     //gets the size of the map
-    cout<< myDictionary.size()<<endl;
+    cout << myDictionary.size() << endl;
 
     //clearing the map
     myDictionary.clear();
 
-    for(auto pair:myDictionary){
-        cout<<pair.first<<"-"<<pair.second<<endl;
+    for (auto pair: myDictionary) {
+        cout << pair.first << "-" << pair.second << endl;
     }
 
     //map of strings and lists
     map<string, list<string>> pokedex;
 
-    list<string> pikachuAttacks {"thunder shock", "tail whip", "quick attack"};
-    list<string> charmanderAttacks {"flame thrower", "scary face"};
-    list<string> chikoritaAttacks { "razor leaf", "poison power"};
+    list<string> pikachuAttacks{"thunder shock", "tail whip", "quick attack"};
+    list<string> charmanderAttacks{"flame thrower", "scary face"};
+    list<string> chikoritaAttacks{"razor leaf", "poison power"};
 
-    pokedex.insert(pair<string, list<string>>("Pikachu", pikachuAttacks));
-    pokedex.insert(pair<string, list<string>>("Charmander", charmanderAttacks));
-    pokedex.insert(pair<string, list<string>>("Chikorita", chikoritaAttacks));
+    pokedex.insert(pair < string, list<string>>
+    ("Pikachu", pikachuAttacks));
+    pokedex.insert(pair < string, list<string>>
+    ("Charmander", charmanderAttacks));
+    pokedex.insert(pair < string, list<string>>
+    ("Chikorita", chikoritaAttacks));
 
-    for(auto pair : pokedex){
-        cout<<pair.first<<"-";
+    for (auto pair: pokedex) {
+        cout << pair.first << "-";
 
-        for(auto attack : pair.second){
-            cout<<attack<<", ";
-            cout<<endl;
+        for (auto attack: pair.second) {
+            cout << attack << ", ";
+            cout << endl;
         }
 
     }

@@ -1,0 +1,13 @@
+# ninja log v5
+0	281	7017719449297218	CMakeFiles/VectorsDemo.dir/main.cpp.obj	d98698d229b950bf
+282	358	7017719450029254	VectorsDemo.exe	db7e3a455bd7b0b6
+1	274	7017719775813009	CMakeFiles/VectorsDemo.dir/main.cpp.obj	d98698d229b950bf
+274	337	7017719776407376	VectorsDemo.exe	db7e3a455bd7b0b6
+2	274	7017720115214461	CMakeFiles/VectorsDemo.dir/main.cpp.obj	d98698d229b950bf
+274	340	7017720115839291	VectorsDemo.exe	db7e3a455bd7b0b6
+2	275	7017720274533876	CMakeFiles/VectorsDemo.dir/main.cpp.obj	d98698d229b950bf
+275	335	7017720275091953	VectorsDemo.exe	db7e3a455bd7b0b6
+1	279	7017720480834670	CMakeFiles/VectorsDemo.dir/main.cpp.obj	d98698d229b950bf
+280	337	7017720481374585	VectorsDemo.exe	db7e3a455bd7b0b6
+2	284	7017722178275676	CMakeFiles/VectorsDemo.dir/main.cpp.obj	d98698d229b950bf
+286	367	7017722179026020	VectorsDemo.exe	db7e3a455bd7b0b6
